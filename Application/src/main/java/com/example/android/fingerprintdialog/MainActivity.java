@@ -243,6 +243,7 @@ public class MainActivity extends Cipherator {
         if (encrypted != null) {
             TextView v = findViewById(R.id.encrypted_message);
             v.setVisibility(View.VISIBLE);
+            v.setText("");
             // TAJNE!
 //            v.setText(Base64.encodeToString(encrypted, 0 /* flags */));
         } else {

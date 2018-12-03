@@ -7,33 +7,30 @@
     format="10"
     ir-eligibility="COMPATIBLE"
     plugin-version="3.0.1"
-    timestamp="1543869266373"
+    timestamp="1543870314556"
     token="-4453994021168719913"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="726" />
+        duration="531" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="30" />
+        duration="37" />
     <task
         name="verifier"
-        duration="4" />
+        duration="5" />
 
     <artifact
         location="/Users/domagalsky/android-FingerprintDialog/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
-    <artifact
-        location="/Users/domagalsky/android-FingerprintDialog/Application/build/outputs/apk/debug/Application-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1543868832686"
+        timestamp="1543869940397"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/domagalsky/android-FingerprintDialog/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -75,14 +72,11 @@
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1543869266373"
+        timestamp="1543870314556"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/domagalsky/android-FingerprintDialog/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/domagalsky/android-FingerprintDialog/Application/build/outputs/apk/debug/Application-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
